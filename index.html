@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    
+
+    <head>
+        <meta charset="utf-8">
+        <title>Rogelio Tech</title>
+    	<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="images/png" href="images/logo.png"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/templatemo_misc.css">
+        <link rel="stylesheet" href="css/templatemo_style.css">
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/anime.min.js"></script>
+        <script src="js/three.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/TextGeometry.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/FontUtils.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/pnltri.min.js'></script>
+        <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/droid_sans_bold.typeface.js'></script>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+
+    </head>
+    <body>
+
+    <div id="container"></div>
+    <div class="site-main" id="sTop">
+        <header id="manu_label" class="manu_label">
+    <nav class="navbar dark-mode" role="navigation">
+    <div class="navbar__logo">rogelio.tech</div>    
+    <ul class="navbar__links">
+      <li class="navbar__link first"><a href="#inicio">Inicio</a></li>
+      <li class="navbar__link second"><a href="#sobremi">Sobre mi</a></li>
+      <li class="navbar__link third"><a href="#portafolio">Portafolio</a></li>
+      <li class="navbar__link four"><a href="#habilidades">Habilidades</a></li>
+      <li class="navbar__link five"><a href="#contacto">Contacto</a></li>
+    </ul>   
+    <button class="burger">
+      <span class="bar"></span>  
+    </button>   
+  </nav>
+  <script type="text/javascript">
+      function toggleMenu () {  
+  const navbar = document.querySelector('.navbar');
+  const burger = document.querySelector('.burger');
+  burger.addEventListener('click', (e) => {    
+    navbar.classList.toggle('show-nav');
+  });    
+}
+toggleMenu();
+  </script>
+        </header>
+        <title>Rogelio Daniel Roldan Guzman</title>
+
+        <div class="container3">
+        <div class="text" id="inicio">Bienvenidos</div>
+        <canvas id="canvas">
+            <script src="js/app2.js"></script>
+        </canvas>
+        <div class="content-section" id="sobremi">
+            <div class="container2">
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        
+                        <h2>Sobre mi</h2>
+                        <p>Soy estudiante del último año de la ingeniería en computación en el C.U. UAEM Zumpango.</p>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item" id="service-1">
+                            <div class="service-icon">
+                                <i class="fa fa-file-code-o"></i>
+                            </div> <!-- /.service-icon -->
+                            <div class="service-content">
+                                <div class="inner-service">
+                                   <h3>Mis gustos</h3>
+                                   <p>El mundo de la tecnologia es increible, en especial si de programar se trata.</p> 
+                                </div>
+                            </div> <!-- /.service-content -->
+                        </div> <!-- /#service-1 -->
+                    </div> <!-- /.col-md-3 -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item" id="service-2">
+                            <div class="service-icon">
+                                <i class="fa fa-code-fork"></i>
+                            </div> <!-- /.service-icon -->
+                            <div class="service-content">
+                                <div class="inner-service">
+                                   <h3>Objetivos</h3>
+                                   <p>El aprendizaje en cada una de mis experiencias y mi crecimiento personal son clave, asi como lo son una estabilidad laboral y de intereses.</p> 
+                                </div>
+                            </div> <!-- /.service-content -->
+                        </div> <!-- /#service-1 -->
+                    </div> <!-- /.col-md-3 -->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item" id="service-3">
+                            <div class="service-icon">
+                                <i class="fa fa-certificate"></i>
+                            </div> <!-- /.service-icon -->
+                            <div class="service-content">
+                                <div class="inner-service">
+                                    <h3>Certificados</h3>
+                                    <p>°Introduction to Cybersecurity</p>
+                                    <p>°Introduction to IoT</p>
+                                    <p> to: Cisco / Cisco Networking Academy</p> 
+                                </div>
+                            </div> <!-- /.service-content -->
+                        </div> <!-- /#service-1 -->
+                    </div> <!-- /.col-md-3 -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#sobremi -->
+
+    <div class="content-section" id="portafolio">
+        <div class="container2" >
+                <div class="row">
+                    <div class="heading-section col-md-12 text-center">
+                        <h2>Portafolio</h2>
+                        <p></p>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+                <div class="row">
+                    <div class="portafolio-item col-sm text-center">
+                        <div class="card center-block">
+                            <img class="imgBx center-block" src="images/gallery/p1.gif">
+                            <div class="contentBx">
+                                <div class="size">
+                                    <h3>Sistema Experto JESS</h3>
+                                    <p>Programa creado en java con uso de JESS, test vocacional.</p>
+                                </div>
+                                <div class="button2">
+                                    <a href="https://github.com/RogelioDaniel/TestVocacionalJESS"  >Ver mas
+                                        <span class="shift">›</span>
+                                    </a>
+                                 <div class="mask"></div>
+                                </div>
+                            </div> <!-- /.portafolio-overlay -->
+                        </div> <!-- /.portafolio-thumb -->
+                    </div> <!-- /.portafolio-item -->
+                    <h2> </h2>
+
+                    <div class="portafolio-item col-sm text-center ">
+                        <div class="card center-block">
+                            <img class="imgBx center-block" src="images/gallery/p3.gif">
+                            <div class="contentBx">
+                                <div class="size">
+                                    <h3>Algoritmo K-means 3D</h3>
+                                    <p>Grafica que clasifica puntos por medio del algoritmo k-means.</p>
+                                </div>
+                                <div class="button2">
+                                    <a href="https://github.com/RogelioDaniel/Algoritmo-K-means-3d">Ver mas
+                                        <span class="shift">›</span>
+                                    </a>
+                                    <div class="mask"></div>
+                                </div>
+                            </div> <!-- /.portafolio-overlay -->
+                        </div> <!-- /.portafolio-thumb -->
+                    </div> <!-- /.portafolio-item -->  
+                    <h2> </h2>
+
+                    <div class="portafolio-item col-sm text-center">
+                        <div class="card center-block">
+                            <img class="imgBx center-block" src="images/gallery/p2.gif">
+                            <div class="contentBx">
+                                <div class="size">
+                                    <h3>Algoritmo Genético</h3>
+                                    <p>Recreación de una imagen con figuras, implementando un algoritmo genético.</p>
+                                </div>
+                                <div class="button2">
+                                    <a href="https://github.com/RogelioDaniel/Algoritmo-Genetico-Imagen" >Ver mas
+                                        <span class="shift">›</span>  
+                                    </a>
+                                    <div class="mask"></div>
+                                </div>
+                            </div> <!-- /.portafolio-overlay -->
+                        </div> <!-- /.portafolio-thumb -->
+                    </div> <!-- /.portafolio-item -->
+                     <h2> </h2>
+                </div> <!-- /.row -->
+            <!-- /.container --> 
+         </div>
+    </div> <!-- /#portafolio -->
+
+
+
+        <div class="content-section" >
+            <div class="container2" id="habilidades">
+                <h2>Habilidades</h2>
+                <h2> </h2>
+                <div class="skills">
+                    <span class="Name">Java, MySQL</span>
+                    <div class="percent">
+                        <div class="progress-bar" style=" width: 55%;"></div>
+                    </div>
+                    <span class="Value">55%</span>
+                </div>
+                <div class="skills">
+                    <span class="Name">JavaScript,C</span>
+                    <div class="percent">
+                        <div class="progress-bar" style=" width: 45%;"></div>
+                    </div>
+                    <span class="Value">45%</span>
+                </div>     
+                 <div class="skills">
+                    <span class="Name">HTML,PHP </span>
+                    <div class="percent">
+                        <div class="progress-bar" style=" width: 40%;"></div>
+                    </div>
+                    <span class="Value">40%</span>
+                </div>                                             
+            </div> <!-- /.container -->           
+        </div> <!-- /#habilidades -->
+
+        <div class="content-section" id="contacto">
+
+            <div class="container2">
+
+                <div class="row">
+                                        <canvas id="canvas">
+                <script src="js/app.js"></script>
+            </canvas>
+                    <div class="heading-section col-md-12 text-center">
+                        
+                        <h2>Contacto</h2>
+                        <p>Telefono: 5617075485</p>
+                        <p>Correo: <a href="mailto:rogelio-daniel@hotmail.es">rogelio-daniel@hotmail.es</a></p>
+                        <p><a href="https://github.com/RogelioDaniel" class="fa fa-github"></a></p>
+                        <p><a href="www.linkedin.com/in/rogelio-daniel-roldan-guzman-54b81520b" class="fa fa-linkedin"></a></p>
+                    </div> <!-- /.heading-section -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#contacto -->
+
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 hidden-xs text-right">
+                        <a href="#top" id="go-top">Regresar al inicio</a>
+                    </div> <!-- /.text-center -->
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </div> <!-- /#footer -->
+        
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>
